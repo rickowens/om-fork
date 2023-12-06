@@ -89,7 +89,14 @@ jobs:
           (cat << EOF
           packages: .
           constraints:
-            base == 4.15.1.0
+            aeson == 2.0.3.0,
+            base == 4.15.0.0,
+            exceptions == 0.10.4,
+            ki == 1.0.0,
+            monad-logger == 0.3.36,
+            om-show == 0.1.2.0,
+            text == 1.2.5.0,
+            unliftio == 0.2.22.0
           EOF
           ) > cabal.project
           rm cabal.project.freeze
