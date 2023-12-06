@@ -94,7 +94,7 @@ jobs:
             exceptions == 0.10.4,
             ki == 1.0.0,
             monad-logger == 0.3.36,
-            om-show == 0.1.2.0,
+            om-show == 0.1.2.6,
             text == 1.2.5.0,
             unliftio == 0.2.22.0
           EOF
