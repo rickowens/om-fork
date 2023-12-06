@@ -90,7 +90,7 @@ jobs:
           packages: .
           constraints:
             aeson == 2.0.3.0,
-            base == 4.15.0.0,
+            base == 4.15.1.0,
             exceptions == 0.10.4,
             ki == 1.0.0,
             monad-logger == 0.3.36,
